@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class CustomListTest {
     @Test
+
     public void testHasCity() {
         CustomList list = new CustomList(null, new ArrayList<City>());
 
